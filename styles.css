@@ -11,7 +11,7 @@ h1, h2 {
     text-align: center;
 }
 
-#identification, #Technicaldata, #Productiondata, #dynamic-info, #qr-code, #map {
+#identification, #technicaldata, #productiondata, #dynamic-info, #qr-code {
     margin: 20px;
     padding: 20px;
     border: 1px solid #ccc;
