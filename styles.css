@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#dashboard {
+    width: 80%;
+    margin: auto;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+#static-info, #dynamic-info, #qr-code, #map {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+#map iframe {
+    width: 100%;
+    height: 300px;
+}
