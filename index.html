@@ -8,15 +8,22 @@
 </head>
 <body>
     <div id="dashboard">
-        <h1>Dashboard</h1>
-        <div id="static-info">
-            <h2>Static Information</h2>
-            <p id="productIdentifier">Product Identifier: </p>
+        <h1>Digital Product Passport</h1>
+        <div id="identification">
+            <h2>Identification</h2>
+            <p id="productIdentifier">Product Identifier:  </p>
             <p id="brand">Brand: </p>
             <p id="model">Model: </p>
-            <p id="powerSupply">Power Supply: </p>
-            <p id="location">Manufacturing Location: </p>
         </div>
+        <div id="Technical data">
+            <p id="powerSupply">Power Supply: </p>
+        </div>
+        <div id="Production data">
+            <p id="location">Manufacturing Location: </p>
+            <p id="date">Date: 26-06-2024</p>
+            <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=-6.769477806574788%2C41.79462103554626%2C-6.765477806574788%2C41.79862103554626&amp;layer=mapnik" style="border: 1px solid black"></iframe>
+        </div>
+        
         <div id="dynamic-info">
             <h2>Dynamic Information</h2>
             <p id="material">Material: </p>
@@ -26,10 +33,6 @@
         <div id="qr-code">
             <h2>QR Code</h2>
             <img src="qr_conv.png" alt="QR Code">
-        </div>
-        <div id="map">
-            <h2>Map</h2>
-            <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=-6.769477806574788%2C41.79462103554626%2C-6.765477806574788%2C41.79862103554626&amp;layer=mapnik" style="border: 1px solid black"></iframe>
         </div>
     </div>
     <script src="script.js"></script>
